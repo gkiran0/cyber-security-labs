@@ -16,14 +16,15 @@ HSbox1 designed to practice network enumeration, service discovery, password aud
 
 🖥️ Lab Information
 
-Detail| Information
-Machine Name| HSbox1
-Platform| Hacker School Lab
-Attacking Machine| Kali Linux
-Target IP| "192.168.1.82"
-Difficulty| Not specified
-Objective| Find flags and obtain authorized access
-
+  IP Address (Network) - 192.168.0.5
+  Hostname - Unfold
+  Operating System (Version) - Linux 3.2- 4.9
+  Domain - N/A
+  Credentials - jack:Cyberspace, goblin:ac51
+  Responding to ICMP (Yes/No) - Yes
+  Firewalled (Yes/No) - No
+  flag-953e976900a6250ce964119dda392196
+  
 🛠️ Tools Used
 
 - Nmap – Port scanning and service enumeration
