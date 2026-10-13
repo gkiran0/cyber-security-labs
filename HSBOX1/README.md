@@ -48,21 +48,24 @@ Services identified in the lab:
 - FTP — Port "21"
 - HTTP — Port "1515"
 - SSH — Port "3535"
+<img width="1133" height="582" alt="port specifi scan" src="https://github.com/user-attachments/assets/9527326c-7e32-413e-9ec8-606e9cb5b423" />
+
+
 
 2. FTP Enumeration
 
 Check whether anonymous FTP access is permitted and inspect accessible files.
 
 ftp 192.168.1.82
+<img width="1004" height="473" alt="ftp enumeration" src="https://github.com/user-attachments/assets/5cf02f9b-aa15-4d18-b012-8ce2b41aaa73" />
 
 The lab's "note.txt" file revealed the username "jack".
+<img width="1462" height="584" alt="ftp login" src="https://github.com/user-attachments/assets/a0ff57f1-f8db-4691-b296-9e29e7cc4c73" />
 
 3. HTTP Enumeration
-
 Open the target website in a browser:
-
 http://192.168.1.82:1515
-
+<img width="896" height="379" alt="http" src="https://github.com/user-attachments/assets/a521d920-396e-4814-9b47-94ee459f94ba" />
 Use CeWL to generate a custom wordlist from the website content:
 
 cewl http://192.168.1.82:1515 -w jackpassword.txt
