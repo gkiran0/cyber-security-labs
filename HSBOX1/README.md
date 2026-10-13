@@ -118,10 +118,14 @@ Inspect the script to understand its permissions and potential privilege-escalat
 Review the script and check the account's permitted sudo commands:
 
 sudo -l
+<img width="1012" height="381" alt="sudo escaltion" src="https://github.com/user-attachments/assets/a29f6ded-6254-4e66-b6a2-037ce0e66c6c" />
+
 
 The lab report documents obtaining root access with:
 
 sudo -i
+<img width="1026" height="499" alt="sudo version escalation" src="https://github.com/user-attachments/assets/f2a15945-57ba-4f8e-9b87-07ef54aebdce" />
+
 
 This works only when the account has sufficient sudo privileges. Inspect the script and verify the relevant permissions before drawing conclusions about the escalation path.
 
@@ -131,6 +135,9 @@ After obtaining authorized root access, inspect the root directory and locate th
 
 ls -la /root
 cat /root/flag.txt
+<img width="1174" height="162" alt="flag" src="https://github.com/user-attachments/assets/7cd2803b-fadf-4bfe-8548-94c805d5466b" />
+
+
 
 Record the flag locally for your lab documentation. Avoid publishing sensitive credentials or flag values if the lab provider restricts disclosure.
 
